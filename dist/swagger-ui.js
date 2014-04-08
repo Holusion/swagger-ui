@@ -1383,7 +1383,7 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
 
     HeaderView.prototype.showHolusion = function(e) {
       return this.trigger('update-swagger-ui', {
-        url: "http://localhost:3000/api-doc"
+        url: "http://localhost:3000/api-docs"
       });
     };
 

@@ -124,6 +124,7 @@ table {
   border-spacing: 0;
 }
 .swagger-ui-wrap {
+  color: #ffffff;
   line-height: 1;
   font-family: "Droid Sans", sans-serif;
   max-width: 960px;
@@ -227,7 +228,7 @@ table {
   color: #aaaaaa;
 }
 .swagger-ui-wrap a {
-  color: #547f00;
+  color: #0b323e;
 }
 .swagger-ui-wrap a img {
   border: none;
@@ -562,16 +563,17 @@ table {
 }
 .swagger-ui-wrap ul#resources li.resource:hover div.heading h2 a,
 .swagger-ui-wrap ul#resources li.resource.active div.heading h2 a {
-  color: black;
+  color: #0b323e;
 }
 .swagger-ui-wrap ul#resources li.resource:hover div.heading ul.options li a,
 .swagger-ui-wrap ul#resources li.resource.active div.heading ul.options li a {
-  color: #555555;
+  color: #ffffff;
 }
 .swagger-ui-wrap ul#resources li.resource:last-child {
   border-bottom: none;
 }
 .swagger-ui-wrap ul#resources li.resource div.heading {
+  color: #ffffff;
   border: 1px solid transparent;
   float: none;
   clear: both;
@@ -596,7 +598,7 @@ table {
   font-size: 0.9em;
 }
 .swagger-ui-wrap ul#resources li.resource div.heading ul.options li a {
-  color: #aaaaaa;
+  color: #ffffff;
   text-decoration: none;
 }
 .swagger-ui-wrap ul#resources li.resource div.heading ul.options li a:hover {
@@ -622,7 +624,7 @@ table {
   padding-left: 0;
 }
 .swagger-ui-wrap ul#resources li.resource div.heading h2 {
-  color: #999999;
+  color: #ffffff;
   padding-left: 0;
   display: block;
   clear: none;
@@ -631,10 +633,10 @@ table {
   font-weight: bold;
 }
 .swagger-ui-wrap ul#resources li.resource div.heading h2 a {
-  color: #999999;
+  color: #0b323e;
 }
 .swagger-ui-wrap ul#resources li.resource div.heading h2 a:hover {
-  color: black;
+  color: #00521e;
 }
 .swagger-ui-wrap ul#resources li.resource ul.endpoints li.endpoint ul.operations li.operation {
   float: none;
@@ -1100,6 +1102,9 @@ table {
 .api-popup-actions {
   padding-top: 10px;
 }
+body {
+  background-color: #009ee3;
+}
 .access {
   float: right;
 }
@@ -1161,7 +1166,7 @@ table {
   cursor: pointer;
 }
 #header {
-  background-color: #103040;
+  background-color: #0b323e;
   padding: 14px;
 }
 #header a#logo {
@@ -1196,7 +1201,7 @@ table {
   padding: 6px 8px;
   font-size: 0.9em;
   color: white;
-  background-color: #00a5e8;
+  background-color: #009ee3;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   -o-border-radius: 4px;
@@ -1205,7 +1210,7 @@ table {
   border-radius: 4px;
 }
 #header form#api_selector .input a#explore:hover {
-  background-color: #00517d;
+  background-color: #00521e;
 }
 #header form#api_selector .input input {
   font-size: 0.9em;
