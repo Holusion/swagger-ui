@@ -1,7 +1,7 @@
 class HeaderView extends Backbone.View
   events: {
     'click #show-pet-store-icon'    : 'showPetStore'
-    'click #show-wordnik-dev-icon'  : 'showWordnikDev'
+    'click #show-holusion-icon'     : 'showHolusion'
     'click #explore'                : 'showCustom'
     'keyup #input_baseUrl'          : 'showCustomOnKeyup'
     'keyup #input_apiKey'           : 'showCustomOnKeyup'
@@ -15,10 +15,10 @@ class HeaderView extends Backbone.View
       {url:"http://petstore.swagger.wordnik.com/api/api-docs"}
     )
 
-  showWordnikDev: (e) ->
+  showHolusion: (e) ->
     @trigger(
       'update-swagger-ui'
-      {url:"http://api.wordnik.com/v4/resources.json"}
+      {url:"http://localhost:3000/api-doc"}
     )
 
   showCustomOnKeyup: (e) ->
