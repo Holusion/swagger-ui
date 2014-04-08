@@ -18,7 +18,7 @@ class HeaderView extends Backbone.View
   showHolusion: (e) ->
     @trigger(
       'update-swagger-ui'
-      {url:"http://localhost:3000/api-doc"}
+      {url:"http://localhost:3000/api-docs"}
     )
 
   showCustomOnKeyup: (e) ->
