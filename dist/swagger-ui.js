@@ -1367,7 +1367,7 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
 
     HeaderView.prototype.events = {
       'click #show-pet-store-icon': 'showPetStore',
-      'click #show-wordnik-dev-icon': 'showWordnikDev',
+      'click #show-holusion-icon': 'showHolusion',
       'click #explore': 'showCustom',
       'keyup #input_baseUrl': 'showCustomOnKeyup',
       'keyup #input_apiKey': 'showCustomOnKeyup'
@@ -1381,9 +1381,9 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
       });
     };
 
-    HeaderView.prototype.showWordnikDev = function(e) {
+    HeaderView.prototype.showHolusion = function(e) {
       return this.trigger('update-swagger-ui', {
-        url: "http://api.wordnik.com/v4/resources.json"
+        url: "http://localhost:3000/api-doc"
       });
     };
 

@@ -1,7 +1,7 @@
 @import 'src/main/less/reset.less';
 @import 'src/main/less/specs.less';
 @import 'src/main/less/auth.less';
-
+@import 'src/main/less/colors.less';
 .access {
     float: right;
 }
@@ -70,7 +70,7 @@
 }
 
 #header {
-    background-color: #89bf04;
+    background-color: #103040;
     padding: 14px;
     a#logo {
         font-size: 1.5em;
@@ -102,7 +102,7 @@
                 padding: 6px 8px;
                 font-size: 0.9em;
                 color: white;
-                background-color: #547f00;
+                background-color: @cyan;
                 -moz-border-radius: 4px;
                 -webkit-border-radius: 4px;
                 -o-border-radius: 4px;
@@ -111,7 +111,7 @@
                 border-radius: 4px;
             }
             a#explore:hover {
-                background-color: #547f00;
+                background-color: @blue;
             }
             input {
                 font-size: 0.9em;

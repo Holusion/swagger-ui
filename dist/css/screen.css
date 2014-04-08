@@ -1161,7 +1161,7 @@ table {
   cursor: pointer;
 }
 #header {
-  background-color: #89bf04;
+  background-color: #103040;
   padding: 14px;
 }
 #header a#logo {
@@ -1196,7 +1196,7 @@ table {
   padding: 6px 8px;
   font-size: 0.9em;
   color: white;
-  background-color: #547f00;
+  background-color: #00a5e8;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   -o-border-radius: 4px;
@@ -1205,7 +1205,7 @@ table {
   border-radius: 4px;
 }
 #header form#api_selector .input a#explore:hover {
-  background-color: #547f00;
+  background-color: #00517d;
 }
 #header form#api_selector .input input {
   font-size: 0.9em;
